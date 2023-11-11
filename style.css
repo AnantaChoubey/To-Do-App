@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    background-image: linear-gradient(to bottom, #f4f4f4 0%, #e0e0e0 100%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    background-image: linear-gradient(to right, #fdfbfb 0%, #ebedee 100%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #3498db;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #ecf0f1;
+}
+
+.input-container button {
+    padding: 10px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-container button:hover {
+    background-color: #27ae60;
+}
+
+.filters {
+    margin-top: 20px;
+}
+
+.filters button {
+    margin-right: 10px;
+    padding: 8px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.filters button:hover {
+    background-color: #2980b9;
+}
+
+.task-list-container {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.task {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task input {
+    margin-right: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #95a5a6;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.status p {
+    margin: 0;
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.status button {
+    padding: 10px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.status button:hover {
+    background-color: #c0392b;
+}
+
